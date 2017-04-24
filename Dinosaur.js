@@ -6,7 +6,7 @@ function jump()
 	var top = 49;
 	function height()
 	{
-		document.getElementById("jump").disabled = true;
+		//document.getElementById("jump").disabled = true;
 		if(dinosaur.style.top=="20%")
 		{
 			flag=1;
@@ -15,7 +15,7 @@ function jump()
 		}
 		else if(dinosaur.style.top=="49%"&&flag==1)
 		{
-			document.getElementById("jump").disabled = false;
+			//document.getElementById("jump").disabled = false;
 			clearInterval(id);
 		}
 		else if(flag==1)
